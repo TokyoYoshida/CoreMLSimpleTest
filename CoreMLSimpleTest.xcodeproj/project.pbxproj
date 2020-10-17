@@ -15,6 +15,7 @@
 		1E50A405253AD3360042618D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E50A403253AD3360042618D /* LaunchScreen.storyboard */; };
 		1E50A410253AD3360042618D /* CoreMLSimpleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A40F253AD3360042618D /* CoreMLSimpleTestTests.swift */; };
 		1E50A41B253AD3360042618D /* CoreMLSimpleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A41A253AD3360042618D /* CoreMLSimpleTestUITests.swift */; };
+		1E50A429253AD4A80042618D /* my_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A428253AD4A80042618D /* my_model.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1E50A416253AD3360042618D /* CoreMLSimpleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLSimpleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E50A41A253AD3360042618D /* CoreMLSimpleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLSimpleTestUITests.swift; sourceTree = "<group>"; };
 		1E50A41C253AD3360042618D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E50A428253AD4A80042618D /* my_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = my_model.mlmodel; path = ../../../../Downloads/my_model.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1E50A3F8253AD3340042618D /* AppDelegate.swift */,
 				1E50A3FA253AD3340042618D /* SceneDelegate.swift */,
 				1E50A3FC253AD3340042618D /* ViewController.swift */,
+				1E50A428253AD4A80042618D /* my_model.mlmodel */,
 				1E50A3FE253AD3340042618D /* Main.storyboard */,
 				1E50A401253AD3360042618D /* Assets.xcassets */,
 				1E50A403253AD3360042618D /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				1E50A3FD253AD3340042618D /* ViewController.swift in Sources */,
 				1E50A3F9253AD3340042618D /* AppDelegate.swift in Sources */,
+				1E50A429253AD4A80042618D /* my_model.mlmodel in Sources */,
 				1E50A3FB253AD3340042618D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
