@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         let inputToModel: my_modelInput = my_modelInput(input1: inputArray)
         if let prediction = try? model.prediction(input: inputToModel) {
             print(prediction.digit)
+            print(prediction.digitProbabilities)
         }
     }
 }
