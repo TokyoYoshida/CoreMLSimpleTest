@@ -13,6 +13,11 @@ class ImageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let model = MobileNetV2()
+        let image = UIImage(named: "neco")
+        
+        
+//        let input = MobileNetV2Input(input_1:
         // Do any additional setup after loading the view.
     }
     
