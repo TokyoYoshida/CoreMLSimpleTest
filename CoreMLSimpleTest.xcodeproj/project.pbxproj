@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1809612542C2CC00462C5F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809602542C2CC00462C5F /* ImageViewController.swift */; };
 		1E50A3F9253AD3340042618D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A3F8253AD3340042618D /* AppDelegate.swift */; };
 		1E50A3FB253AD3340042618D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A3FA253AD3340042618D /* SceneDelegate.swift */; };
 		1E50A3FD253AD3340042618D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A3FC253AD3340042618D /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E1809602542C2CC00462C5F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		1E50A3F5253AD3340042618D /* CoreMLSimpleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLSimpleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E50A3F8253AD3340042618D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E50A3FA253AD3340042618D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				1E50A3F8253AD3340042618D /* AppDelegate.swift */,
 				1E50A3FA253AD3340042618D /* SceneDelegate.swift */,
 				1E50A3FC253AD3340042618D /* ViewController.swift */,
+				1E1809602542C2CC00462C5F /* ImageViewController.swift */,
 				1E50A428253AD4A80042618D /* my_model.mlmodel */,
 				1E50A3FE253AD3340042618D /* Main.storyboard */,
 				1E50A401253AD3360042618D /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			files = (
 				1E50A3FD253AD3340042618D /* ViewController.swift in Sources */,
 				1E50A3F9253AD3340042618D /* AppDelegate.swift in Sources */,
+				1E1809612542C2CC00462C5F /* ImageViewController.swift in Sources */,
 				1E50A429253AD4A80042618D /* my_model.mlmodel in Sources */,
 				1E50A3FB253AD3340042618D /* SceneDelegate.swift in Sources */,
 			);
