@@ -10,6 +10,21 @@
 		1E1809612542C2CC00462C5F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809602542C2CC00462C5F /* ImageViewController.swift */; };
 		1E1809632542C4E500462C5F /* my_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809622542C4E500462C5F /* my_model.mlmodel */; };
 		1E1809672542C5DB00462C5F /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809662542C5DB00462C5F /* MobileNetV2.mlmodel */; };
+		1E18097B2542C76A00462C5F /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E18096C2542C76900462C5F /* CGImagePropertyOrientation.swift */; };
+		1E18097C2542C76A00462C5F /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E18096D2542C76900462C5F /* UIImage+RawBytes.swift */; };
+		1E18097D2542C76A00462C5F /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E18096E2542C76900462C5F /* MLMultiArray+Helpers.swift */; };
+		1E18097E2542C76A00462C5F /* CoreML+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E18096F2542C76900462C5F /* CoreML+Combine.swift */; };
+		1E18097F2542C76A00462C5F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809702542C76900462C5F /* Array+Extensions.swift */; };
+		1E1809802542C76A00462C5F /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809712542C76900462C5F /* UIImage+CVPixelBuffer.swift */; };
+		1E1809812542C76A00462C5F /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809722542C76900462C5F /* CVPixelBuffer+Helpers.swift */; };
+		1E1809822542C76A00462C5F /* MLModel+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809732542C76900462C5F /* MLModel+Images.swift */; };
+		1E1809832542C76A00462C5F /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809742542C76900462C5F /* CGImage+CVPixelBuffer.swift */; };
+		1E1809842542C76A00462C5F /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809752542C76900462C5F /* Predictions.swift */; };
+		1E1809852542C76A00462C5F /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809762542C76A00462C5F /* Math.swift */; };
+		1E1809862542C76A00462C5F /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809772542C76A00462C5F /* MLMultiArray+Image.swift */; };
+		1E1809872542C76A00462C5F /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809782542C76A00462C5F /* NonMaxSuppression.swift */; };
+		1E1809882542C76A00462C5F /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1809792542C76A00462C5F /* CGImage+RawBytes.swift */; };
+		1E1809892542C76A00462C5F /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E18097A2542C76A00462C5F /* UIImage+Extensions.swift */; };
 		1E50A3F9253AD3340042618D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A3F8253AD3340042618D /* AppDelegate.swift */; };
 		1E50A3FB253AD3340042618D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A3FA253AD3340042618D /* SceneDelegate.swift */; };
 		1E50A3FD253AD3340042618D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A3FC253AD3340042618D /* ViewController.swift */; };
@@ -41,6 +56,21 @@
 		1E1809602542C2CC00462C5F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		1E1809622542C4E500462C5F /* my_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = my_model.mlmodel; sourceTree = "<group>"; };
 		1E1809662542C5DB00462C5F /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		1E18096C2542C76900462C5F /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		1E18096D2542C76900462C5F /* UIImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RawBytes.swift"; sourceTree = "<group>"; };
+		1E18096E2542C76900462C5F /* MLMultiArray+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		1E18096F2542C76900462C5F /* CoreML+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreML+Combine.swift"; sourceTree = "<group>"; };
+		1E1809702542C76900462C5F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		1E1809712542C76900462C5F /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		1E1809722542C76900462C5F /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		1E1809732542C76900462C5F /* MLModel+Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLModel+Images.swift"; sourceTree = "<group>"; };
+		1E1809742542C76900462C5F /* CGImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		1E1809752542C76900462C5F /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		1E1809762542C76A00462C5F /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		1E1809772542C76A00462C5F /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		1E1809782542C76A00462C5F /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		1E1809792542C76A00462C5F /* CGImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+RawBytes.swift"; sourceTree = "<group>"; };
+		1E18097A2542C76A00462C5F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		1E50A3F5253AD3340042618D /* CoreMLSimpleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLSimpleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E50A3F8253AD3340042618D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E50A3FA253AD3340042618D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +112,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E18096B2542C70D00462C5F /* CoreML Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1E1809702542C76900462C5F /* Array+Extensions.swift */,
+				1E1809742542C76900462C5F /* CGImage+CVPixelBuffer.swift */,
+				1E1809792542C76A00462C5F /* CGImage+RawBytes.swift */,
+				1E18096C2542C76900462C5F /* CGImagePropertyOrientation.swift */,
+				1E18096F2542C76900462C5F /* CoreML+Combine.swift */,
+				1E1809722542C76900462C5F /* CVPixelBuffer+Helpers.swift */,
+				1E1809762542C76A00462C5F /* Math.swift */,
+				1E1809732542C76900462C5F /* MLModel+Images.swift */,
+				1E18096E2542C76900462C5F /* MLMultiArray+Helpers.swift */,
+				1E1809772542C76A00462C5F /* MLMultiArray+Image.swift */,
+				1E1809782542C76A00462C5F /* NonMaxSuppression.swift */,
+				1E1809752542C76900462C5F /* Predictions.swift */,
+				1E1809712542C76900462C5F /* UIImage+CVPixelBuffer.swift */,
+				1E18097A2542C76A00462C5F /* UIImage+Extensions.swift */,
+				1E18096D2542C76900462C5F /* UIImage+RawBytes.swift */,
+			);
+			path = "CoreML Helpers";
+			sourceTree = "<group>";
+		};
 		1E50A3EC253AD3340042618D = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +161,7 @@
 				1E50A3FA253AD3340042618D /* SceneDelegate.swift */,
 				1E50A3FC253AD3340042618D /* ViewController.swift */,
 				1E1809602542C2CC00462C5F /* ImageViewController.swift */,
+				1E18096B2542C70D00462C5F /* CoreML Helpers */,
 				1E1809662542C5DB00462C5F /* MobileNetV2.mlmodel */,
 				1E50A3FE253AD3340042618D /* Main.storyboard */,
 				1E1809622542C4E500462C5F /* my_model.mlmodel */,
@@ -268,12 +321,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1809842542C76A00462C5F /* Predictions.swift in Sources */,
+				1E1809832542C76A00462C5F /* CGImage+CVPixelBuffer.swift in Sources */,
 				1E1809672542C5DB00462C5F /* MobileNetV2.mlmodel in Sources */,
+				1E1809892542C76A00462C5F /* UIImage+Extensions.swift in Sources */,
 				1E50A3FD253AD3340042618D /* ViewController.swift in Sources */,
 				1E50A3F9253AD3340042618D /* AppDelegate.swift in Sources */,
+				1E1809812542C76A00462C5F /* CVPixelBuffer+Helpers.swift in Sources */,
+				1E18097F2542C76A00462C5F /* Array+Extensions.swift in Sources */,
 				1E1809612542C2CC00462C5F /* ImageViewController.swift in Sources */,
+				1E1809872542C76A00462C5F /* NonMaxSuppression.swift in Sources */,
+				1E1809862542C76A00462C5F /* MLMultiArray+Image.swift in Sources */,
+				1E1809882542C76A00462C5F /* CGImage+RawBytes.swift in Sources */,
 				1E50A3FB253AD3340042618D /* SceneDelegate.swift in Sources */,
 				1E1809632542C4E500462C5F /* my_model.mlmodel in Sources */,
+				1E1809852542C76A00462C5F /* Math.swift in Sources */,
+				1E1809802542C76A00462C5F /* UIImage+CVPixelBuffer.swift in Sources */,
+				1E18097C2542C76A00462C5F /* UIImage+RawBytes.swift in Sources */,
+				1E1809822542C76A00462C5F /* MLModel+Images.swift in Sources */,
+				1E18097E2542C76A00462C5F /* CoreML+Combine.swift in Sources */,
+				1E18097D2542C76A00462C5F /* MLMultiArray+Helpers.swift in Sources */,
+				1E18097B2542C76A00462C5F /* CGImagePropertyOrientation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
