@@ -37,5 +37,8 @@ class ViewController: UIViewController {
         print(output.classLabel)
         print(output.Identity)
     }
+
+    @IBAction func buttonSimpleMLWithBuilderTapped(_ sender: Any) {
+    }
 }
 
