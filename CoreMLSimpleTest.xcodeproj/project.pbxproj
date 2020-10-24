@@ -33,6 +33,7 @@
 		1E50A41B253AD3360042618D /* CoreMLSimpleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E50A41A253AD3360042618D /* CoreMLSimpleTestUITests.swift */; };
 		1EE7FDC52544D4FA0047A94B /* my_model_with_builder.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7FDC32544D4FA0047A94B /* my_model_with_builder.mlmodel */; };
 		1EE7FDC62544D4FA0047A94B /* my_model_raw.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7FDC42544D4FA0047A94B /* my_model_raw.mlmodel */; };
+		1EE7FDCA2544D59E0047A94B /* my_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7FDC92544D59E0047A94B /* my_model.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		1E50A41C253AD3360042618D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE7FDC32544D4FA0047A94B /* my_model_with_builder.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = my_model_with_builder.mlmodel; sourceTree = "<group>"; };
 		1EE7FDC42544D4FA0047A94B /* my_model_raw.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = my_model_raw.mlmodel; sourceTree = "<group>"; };
+		1EE7FDC92544D59E0047A94B /* my_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = my_model.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				1E1809662542C5DB00462C5F /* MobileNetV2.mlmodel */,
 				1E50A3FE253AD3340042618D /* Main.storyboard */,
 				1E50A401253AD3360042618D /* Assets.xcassets */,
+				1EE7FDC92544D59E0047A94B /* my_model.mlmodel */,
 				1EE7FDC42544D4FA0047A94B /* my_model_raw.mlmodel */,
 				1EE7FDC32544D4FA0047A94B /* my_model_with_builder.mlmodel */,
 				1E50A403253AD3360042618D /* LaunchScreen.storyboard */,
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE7FDCA2544D59E0047A94B /* my_model.mlmodel in Sources */,
 				1EE7FDC52544D4FA0047A94B /* my_model_with_builder.mlmodel in Sources */,
 				1E1809842542C76A00462C5F /* Predictions.swift in Sources */,
 				1E1809832542C76A00462C5F /* CGImage+CVPixelBuffer.swift in Sources */,
