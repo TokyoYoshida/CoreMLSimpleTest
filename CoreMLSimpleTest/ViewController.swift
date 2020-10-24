@@ -39,6 +39,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonSimpleMLWithBuilderTapped(_ sender: Any) {
+        let model = my_model_raw()
+        let inputArray = try! MLMultiArray([2,3])
+        let inputToModel: my_model_rawInput = my_model_rawInput(input1: inputArray)
+        if let prediction = try? model.prediction(input: inputToModel) {
+            print(prediction.output1)
+        }
     }
 }
 
